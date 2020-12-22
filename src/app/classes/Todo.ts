@@ -4,8 +4,8 @@ export class Todo implements ITodo {
 	id?: string;
     name: string;
     description: string;
-    executed: string;
-    important_task: string;
+    executed: boolean;
+    important_task: boolean;
     date_executed: string;
 	email?: string
 	constructor(
