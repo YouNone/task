@@ -1,0 +1,49 @@
+{
+  "todo": [
+    {
+      "id": 1,
+      "name": "Test 1",
+      "description": "very long and important description",
+      "executed": true,
+      "important_task": true,
+      "email": "mymy@mail.com",
+      "date_executed": "2019-10-03T22:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "hakoona matata",
+      "description": "Timon and poomba song",
+      "email": "lelol@mail.com",
+      "executed": true,
+      "important_task": true,
+      "date_executed": "2013-04-03T22:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Test name",
+      "description": "description of a test",
+      "executed": true,
+      "email": "everytime@mail.com",
+      "important_task": false,
+      "date_executed": "2016-01-03T22:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Test task",
+      "description": "very long and important description",
+      "email": "mymy@mail.com",
+      "executed": false,
+      "important_task": false,
+      "date_executed": "2019-10-03T22:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "11223344",
+      "description": "desc desc",
+      "date_executed": "2018-07-03T22:00:00.000Z",
+      "email": "email@mail.com",
+      "executed": false,
+      "important_task": false
+    }
+  ]
+}

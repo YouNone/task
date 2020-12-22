@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.brd {
+    border: 1px solid red;
+}
+table {
+    width: 100%;
+    td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+    tr:hover {
+		background-color: rgba(0, 0, 0, 0.08);
+	}
+}
+.point {
+    cursor: pointer;
+}
+
+.fholder {
+    margin: 10px;
+    padding: 15px;
+    width: 350px;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0 0 10px rgba(0,0,0,0.5);
+    .radio {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        label {
+            
+            margin: 10px;
+        }
+    }
+   
+}
+
+@media screen and (max-width: 480px) { /* разрешение смартфона */
+    body {
+        font-size: 16px;
+    }
+    mat-label {
+        font-size: 18px;
+        color:  rgba(0,0,0,0.5);;
+    }
+    mat-error {
+        font-size: 18px;
+    }
+    table {
+        max-width: 400px;
+    }
+}
